@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Documentation pour site exopack."
 permalink: /
 ---
 
@@ -16,7 +16,7 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 
 ---
 
-## Getting startedmmmmmmmmaster-master
+## Getting started master
 
 ### Dependencies
 

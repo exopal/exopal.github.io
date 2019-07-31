@@ -1,8 +1,7 @@
 
 
-## Installation
-
-
+## Important
+> Only use Github client to interract with Exopal documentation
 
 ## Based on
 
@@ -10,15 +9,43 @@ This production documentation site is based on
 
 [View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
 
+## Getting started
 
-## Development
+Clone [Github repositoryremote theme](https://github.com/exopal/exopal.github.io.git)
 
-To set up your environment to develop this theme, run `bundle install`.
+### Local installation: Use the gem-based theme
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+1. Install dependencies
+```bash
+$ `bundle install`.
+```
+2. _Optional:_ Initialize search data (creates `search-data.json`)
+```bash
+$ bundle exec just-the-docs rake search:init
+```
+3. Run you local Jekyll server
+```bash
+$ jekyll serve
+```
+```bash
+# .. or if you're using a Gemfile (bundler)
+$ bundle exec jekyll serve
+```
+4. Point your web browser to [http://localhost:4000](http://localhost:4000)
 
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
+If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+
+### Configure Just the Docs
+
+- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+
+## About the project
+
+Exopal documentation jekyll based on Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
+
 
 ## License
+
+Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

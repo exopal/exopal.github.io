@@ -41,16 +41,16 @@ aux_links:
 ## Color scheme
 
 ```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
+# Color scheme currently only supports "exopal" or nil (default)
+color_scheme: "exopal"
 ```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+<button class="btn js-toggle-exopal-mode">Preview exopal color scheme</button>
 
 <script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode')
+const toggleDarkMode = document.querySelector('.js-toggle-exopal-mode')
 const cssFile = document.querySelector('[rel="stylesheet"]')
 const originalCssRef = cssFile.getAttribute('href')
-const darkModeCssRef = originalCssRef.replace('just-the-docs.css', 'dark-mode-preview.css')
+const darkModeCssRef = originalCssRef.replace('just-the-docs.css', 'exopal-mode-preview.css')
 
 addEvent(toggleDarkMode, 'click', function(){
   if (cssFile.getAttribute('href') === originalCssRef) {

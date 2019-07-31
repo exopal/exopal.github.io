@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "just-the-docs"
-  spec.version       = "0.2.5"
-  spec.authors       = ["Patrick Marsceill"]
-  spec.email         = ["patrick.marsceill@gmail.com"]
+  spec.name          = "exopal-docs"
+  spec.version       = "0.1.0"
+  spec.authors       = ["hugorper", "Patrick Marsceill"]
+  spec.email         = ["hugorper@gmail.com","patrick.marsceill@gmail.com"]
 
   spec.summary       = %q{A modern, high customizable, responsive Jekyll theme for documention with built-in search.}
-  spec.homepage      = "https://github.com/pmarsceill/just-the-docs"
+  spec.homepage      = "https://github.com/exopal/exopal.github.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|bin|_layouts|_includes|lib|Rakefile|_sass|LICENSE|README)}i) }

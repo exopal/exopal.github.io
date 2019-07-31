@@ -26,8 +26,8 @@
 // Import custom color scheme scss
 //
 
-{% if site.color_scheme == "dark" %}
-@import "./color_schemes/dark.scss";
+{% if site.color_scheme == "exopal" %}
+@import "./color_schemes/exopal.scss";
 {% endif %}
 
 // Modules
