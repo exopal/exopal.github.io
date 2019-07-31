@@ -16,7 +16,7 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 
 ---
 
-## Getting startedmmmmmmmmaster
+## Getting startedmmmmmmmmaster-master
 
 ### Dependencies
 
