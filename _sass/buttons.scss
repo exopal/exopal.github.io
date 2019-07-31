@@ -101,6 +101,25 @@
   }
 }
 
+
+.btn-menu {
+  font-size: 28px !important;
+  color: #FF8142;
+  background: transparent;
+  box-shadow: none; 
+  border: none;
+  &:hover,
+  &:active,
+  &.zeroclipboard-is-hover,
+  &.zeroclipboard-is-active ,
+  &:focus,
+  &:focus:hover,
+  &.selected:focus {
+    box-shadow: none; 
+    border: none;
+  }
+}
+
 .btn-primary {
   @include btn-color($white, $btn-primary-color);
 }

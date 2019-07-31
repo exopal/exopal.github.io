@@ -917,6 +917,16 @@ li .highlight {
   .btn-outline:focus:hover, .btn-outline.selected:focus {
     box-shadow: inset 0 0 0 2px #5c5962; }
 
+.btn-menu {
+  font-size: 28px !important;
+  color: #FF8142;
+  background: transparent;
+  box-shadow: none;
+  border: none; }
+  .btn-menu:hover, .btn-menu:active, .btn-menu.zeroclipboard-is-hover, .btn-menu.zeroclipboard-is-active, .btn-menu:focus, .btn-menu:focus:hover, .btn-menu.selected:focus {
+    box-shadow: none;
+    border: none; }
+
 .btn-primary {
   color: #fff;
   background-color: #ff7a38;
