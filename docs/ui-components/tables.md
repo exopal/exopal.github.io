@@ -5,13 +5,13 @@ parent: UI Components
 nav_order: 4
 ---
 
-# Tables
+# Les tables
 
-Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport.
+Les tables sont réactives par défaut, ce qui permet aux tables larges d'avoir un défilement horizontal pour accéder aux colonnes en dehors de la fenêtre d'affichage normale.
 
 <div class="code-example" markdown="1">
 
-| head1        | head two          | three |
+| entete       | entete 2          | 3     |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
@@ -19,8 +19,9 @@ Tables are responsive by default, allowing wide tables to have a horizontal scro
 | ok           | good `zoute` drop | yumm  |
 
 </div>
+
 ```markdown
-| head1        | head two          | three |
+| entete       | entete 2          | 3     |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |

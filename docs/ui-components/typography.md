@@ -5,30 +5,30 @@ parent: UI Components
 nav_order: 1
 ---
 
-# Typography
-{: .no_toc }
+# Typographie
+{: .no_toc}
 
-## Table of contents
-{: .no_toc .text-delta }
+## Table des matières
+{: .no_toc .text-delta}
 
-1. TOC
-{:toc}
+1. COT
+{: toc}
 
 ---
 
-## Font stack
+## Pile de polices
 
-By default, Just the Docs uses a native system font stack for sans-serif fonts:
+Par défaut, Just the Docs utilise une pile de polices système native pour les polices sans-serif:
 
 ```scss
--apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif
+-apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans serif
 ```
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .code-example }
+{: .fs-5 .ls-10 .code-example}
 
-For monospace type, like code snippets or the `<pre>` element, Just the Docs uses a native system font stack for monospace fonts:
+Pour le type monospace, comme les extraits de code ou l'élément `<pre>`, Just the Docs utilise une pile de polices système native pour les polices monospace:
 
 ```scss
 "SFMono-Regular", Menlo, Consolas, Monospace
@@ -36,15 +36,15 @@ For monospace type, like code snippets or the `<pre>` element, Just the Docs use
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
-{: .fs-5 .ls-10 .text-mono .code-example }
+{: .fs-5 .ls-10 .text-mono .code-example}
 
 ---
 
-## Responsive type scale
+## échelle de type sensible
 
-Just the Docs uses a responsive type scale that shifts depending on the viewport size.
+Juste la documentation utilise une échelle de type sensible qui change en fonction de la taille de la fenêtre.
 
-| Selector              | Small screen size `font-size`    | Large screen size `font-size` |
+| Sélecteur | Petite taille de l'écran `font-size` | Grand écran `font-size` |
 |:----------------------|:---------------------------------|:------------------------------|
 | `h1`, `.text-alpha`   | 32px                             | 36px                          |
 | `h2`, `.text-beta`    | 18px                             | 24px                          |
@@ -56,9 +56,9 @@ Just the Docs uses a responsive type scale that shifts depending on the viewport
 
 ---
 
-## Headings
+## Rubriques
 
-Headings are rendered like this:
+Les titres sont rendus comme ceci:
 
 <div class="code-example">
 <h1>Heading 1</h1>
@@ -81,7 +81,7 @@ Headings are rendered like this:
 
 ## Body text
 
-Default body text is rendered like this:
+Le corps du texte par défaut est rendu comme ceci:
 
 <div class="code-example" markdown="1">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -95,20 +95,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ## Inline elements
 
 <div class="code-example" markdown="1">
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text peut être **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 </div>
+
 ```markdown
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text peut être **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 ```
 
 ---
 
-## Typographic Utilities
+## Utilitaires typographiques
 
-There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization.
+Un certain nombre de classes CSS typographiques spécifiques vous permettent de remplacer le style par défaut pour la taille et l'épaisseur de la police, la hauteur de ligne et la capitalisation.
 
 [View typography utilities]({{ site.baseurl }}{% link docs/utilities/utilities.md %}#typography){: .btn .btn-outline }

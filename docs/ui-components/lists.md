@@ -8,7 +8,7 @@ nav_order: 5
 # Lists
 {: .no_toc }
 
-## Table of contents
+## Table des matière
 {: .no_toc .text-delta }
 
 1. TOC
@@ -16,9 +16,9 @@ nav_order: 5
 
 ---
 
-Most lists can be rendered with pure Markdown.
+La plupart des listes peuvent être rendues avec Markdown pur.
 
-## Unordered list
+## Liste non ordonnée
 
 <div class="code-example" markdown="1">
 - Item 1
@@ -43,7 +43,7 @@ _or_
 * Item 3
 ```
 
-## Ordered list
+## Liste ordonnée
 
 <div class="code-example" markdown="1">
 1. Item 1
@@ -59,19 +59,20 @@ _or_
 ## Task list
 
 <div class="code-example" markdown="1">
-- [ ] hello, this is a todo item
-- [ ] hello, this is another todo item
-- [x] goodbye, this item is done
+- [ ] bonjour, ceci est une tâche
+- [ ] bonjour, ceci est un autre article à faire
+- [x] au revoir, cet objet est terminé
 </div>
+
 ```markdown
-- [ ] hello, this is a todo item
-- [ ] hello, this is another todo item
-- [x] goodbye, this item is done
+- [ ] bonjour, ceci est une tâche
+- [ ] bonjour, ceci est un autre article à faire
+- [x] au revoir, cet objet est terminé
 ```
 
-## Definition list
+## Liste de définition
 
-Definition lists require HTML syntax and aren't supported with the GitHub Flavored Markdown compiler.
+Les listes de définitions nécessitent la syntaxe HTML et ne sont pas prises en charge par le compilateur GitHub Flavored Markdown.
 
 <div class="code-example" markdown="1">
 <dl>
@@ -85,7 +86,9 @@ Definition lists require HTML syntax and aren't supported with the GitHub Flavor
 <dd>Green</dd>
 </dl>
 </div>
+
 ```html
+
 <dl>
   <dt>Name</dt>
   <dd>Godzilla</dd>
@@ -96,4 +99,6 @@ Definition lists require HTML syntax and aren't supported with the GitHub Flavor
   <dt>Color</dt>
   <dd>Green</dd>
 </dl>
+
 ```
+

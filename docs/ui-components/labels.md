@@ -5,45 +5,47 @@ parent: UI Components
 nav_order: 3
 ---
 
-# Labels
+# Étiquettes
 
-Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue.
+Utilisez des étiquettes pour ajouter une marque supplémentaire à une section de vos documents. Les étiquettes sont disponibles en quelques couleurs. Par défaut, les étiquettes seront bleues.
 
-<div class="code-example" markdown="1">
-Default label
-{: .label }
+<div class = "exemple de code" markdown = "1">
+Étiquette par défaut
+{: .label}
 
-Blue label
-{: .label .label-blue }
+Étiquette bleu
+{: .label .label-blue}
 
 Stable
-{: .label .label-green }
+{: .label .label-green}
 
-New release
-{: .label .label-purple }
+Nouvelle version
+{: .label .label-purple}
 
-Coming soon
-{: .label .label-yellow }
+Arrive bientôt
+{: .label .label-yellow}
 
-Deprecated
-{: .label .label-red }
+Obsolète
+{: .label .label-red}
 </div>
-```markdown
-Default label
-{: .label }
 
-Blue label
-{: .label .label-blue }
+```markdown
+Étiquette par défaut
+{: .label}
+
+Étiquette bleu
+{: .label .label-blue}
 
 Stable
-{: .label .label-green }
+{: .label .label-green}
 
-New release
-{: .label .label-purple }
+Nouvelle version
+{: .label .label-purple}
 
-Coming soon
-{: .label .label-yellow }
+Arrive bientôt
+{: .label .label-yellow}
 
-Deprecated
-{: .label .label-red }
+Obsolète
+{: .label .label-red}
+
 ```

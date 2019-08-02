@@ -59,27 +59,9 @@
     
       
         
-      
-    
-      
-        
           <li class="navigation-list-item">
             
             <a href="http://localhost:4000/" class="navigation-list-link">Acceuil</a>
-            
-          </li>
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          <li class="navigation-list-item">
-            
-            <a href="http://localhost:4000/docs/configuration/" class="navigation-list-link">Configuration</a>
             
           </li>
         
@@ -111,6 +93,8 @@
                   
                 
                   
+                
+                  
                     <li class="navigation-list-item  active">
                       
                       <a href="http://localhost:4000/docs/ui-components/typography/" class="navigation-list-link active">Typography</a>
@@ -133,8 +117,6 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/docs/ui-components/labels/" class="navigation-list-link">Labels</a>
@@ -145,15 +127,11 @@
                   
                 
                   
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/docs/ui-components/tables/" class="navigation-list-link">Tables</a>
                       
                     </li>
-                  
-                
                   
                 
                   
@@ -180,9 +158,27 @@
                 
                   
                 
+                  
+                
               </ul>
             
           </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
         
       
     
@@ -210,10 +206,6 @@
                   
                 
                   
-                
-                  
-                
-                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/docs/utilities/layout/" class="navigation-list-link">Layout</a>
@@ -222,17 +214,15 @@
                   
                 
                   
+                
+                  
+                
+                  
                     <li class="navigation-list-item ">
                       
                       <a href="http://localhost:4000/docs/utilities/color/" class="navigation-list-link">Color</a>
                       
                     </li>
-                  
-                
-                  
-                
-                  
-                
                   
                 
                   
@@ -257,13 +247,13 @@
                 
                   
                 
+                  
+                
+                  
+                
               </ul>
             
           </li>
-        
-      
-    
-      
         
       
     
@@ -292,10 +282,6 @@
             <a href="http://localhost:4000/docs/customization/" class="navigation-list-link">Customization</a>
             
           </li>
-        
-      
-    
-      
         
       
     
@@ -356,32 +342,32 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <h1 class="no_toc" id="typography">Typography</h1>
+          <h1 class="no_toc" id="typographie">Typographie</h1>
 
-<h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+<h2 class="no_toc text-delta" id="table-des-matières">Table des matières</h2>
 
 <ol id="markdown-toc">
-  <li><a href="#font-stack" id="markdown-toc-font-stack">Font stack</a></li>
-  <li><a href="#responsive-type-scale" id="markdown-toc-responsive-type-scale">Responsive type scale</a></li>
-  <li><a href="#headings" id="markdown-toc-headings">Headings</a></li>
+  <li><a href="#pile-de-polices" id="markdown-toc-pile-de-polices">Pile de polices</a></li>
+  <li><a href="#échelle-de-type-sensible" id="markdown-toc-échelle-de-type-sensible">échelle de type sensible</a></li>
+  <li><a href="#rubriques" id="markdown-toc-rubriques">Rubriques</a></li>
   <li><a href="#body-text" id="markdown-toc-body-text">Body text</a></li>
   <li><a href="#inline-elements" id="markdown-toc-inline-elements">Inline elements</a></li>
-  <li><a href="#typographic-utilities" id="markdown-toc-typographic-utilities">Typographic Utilities</a></li>
+  <li><a href="#utilitaires-typographiques" id="markdown-toc-utilitaires-typographiques">Utilitaires typographiques</a></li>
 </ol>
 
 <hr />
 
-<h2 id="font-stack">Font stack</h2>
+<h2 id="pile-de-polices">Pile de polices</h2>
 
-<p>By default, Just the Docs uses a native system font stack for sans-serif fonts:</p>
+<p>Par défaut, Just the Docs utilise une pile de polices système native pour les polices sans-serif:</p>
 
-<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-apple-system</span><span class="o">,</span> <span class="nt">BlinkMacSystemFont</span><span class="o">,</span> <span class="s2">"helvetica neue"</span><span class="o">,</span> <span class="nt">helvetica</span><span class="o">,</span> <span class="nt">roboto</span><span class="o">,</span> <span class="nt">noto</span><span class="o">,</span> <span class="s2">"segoe ui"</span><span class="o">,</span> <span class="nt">arial</span><span class="o">,</span> <span class="nt">sans-serif</span>
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-apple-system</span><span class="o">,</span> <span class="nt">BlinkMacSystemFont</span><span class="o">,</span> <span class="s2">"helvetica neue"</span><span class="o">,</span> <span class="nt">helvetica</span><span class="o">,</span> <span class="nt">roboto</span><span class="o">,</span> <span class="nt">noto</span><span class="o">,</span> <span class="s2">"segoe ui"</span><span class="o">,</span> <span class="nt">arial</span><span class="o">,</span> <span class="nt">sans</span> <span class="nt">serif</span>
 </code></pre></div></div>
 
 <p class="fs-5 ls-10 code-example">ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz</p>
 
-<p>For monospace type, like code snippets or the <code class="highlighter-rouge">&lt;pre&gt;</code> element, Just the Docs uses a native system font stack for monospace fonts:</p>
+<p>Pour le type monospace, comme les extraits de code ou l’élément <code class="highlighter-rouge">&lt;pre&gt;</code>, Just the Docs utilise une pile de polices système native pour les polices monospace:</p>
 
 <div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"SFMono-Regular"</span><span class="o">,</span> <span class="nt">Menlo</span><span class="o">,</span> <span class="nt">Consolas</span><span class="o">,</span> <span class="nt">Monospace</span>
 </code></pre></div></div>
@@ -391,16 +377,16 @@ abcdefghijklmnopqrstuvwxyz</p>
 
 <hr />
 
-<h2 id="responsive-type-scale">Responsive type scale</h2>
+<h2 id="échelle-de-type-sensible">échelle de type sensible</h2>
 
-<p>Just the Docs uses a responsive type scale that shifts depending on the viewport size.</p>
+<p>Juste la documentation utilise une échelle de type sensible qui change en fonction de la taille de la fenêtre.</p>
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Selector</th>
-      <th style="text-align: left">Small screen size <code class="highlighter-rouge">font-size</code></th>
-      <th style="text-align: left">Large screen size <code class="highlighter-rouge">font-size</code></th>
+      <th style="text-align: left">Sélecteur</th>
+      <th style="text-align: left">Petite taille de l’écran <code class="highlighter-rouge">font-size</code></th>
+      <th style="text-align: left">Grand écran <code class="highlighter-rouge">font-size</code></th>
     </tr>
   </thead>
   <tbody>
@@ -444,9 +430,9 @@ abcdefghijklmnopqrstuvwxyz</p>
 
 <hr />
 
-<h2 id="headings">Headings</h2>
+<h2 id="rubriques">Rubriques</h2>
 
-<p>Headings are rendered like this:</p>
+<p>Les titres sont rendus comme ceci:</p>
 
 <div class="code-example">
 <h1>Heading 1</h1>
@@ -468,7 +454,7 @@ abcdefghijklmnopqrstuvwxyz</p>
 
 <h2 id="body-text">Body text</h2>
 
-<p>Default body text is rendered like this:</p>
+<p>Le corps du texte par défaut est rendu comme ceci:</p>
 
 <div class="code-example">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -481,20 +467,21 @@ abcdefghijklmnopqrstuvwxyz</p>
 <h2 id="inline-elements">Inline elements</h2>
 
 <div class="code-example">
-  <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+  <p>Text peut être <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
 
   <p><a href="another-page">Link to another page</a>.</p>
 </div>
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text can be <span class="gs">**bold**</span>, _italic_, or ~~strikethrough~~.
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text peut être <span class="gs">**bold**</span>, _italic_, or ~~strikethrough~~.
 
 <span class="p">[</span><span class="nv">Link to another page</span><span class="p">](</span><span class="sx">another-page</span><span class="p">)</span>.
 </code></pre></div></div>
 
 <hr />
 
-<h2 id="typographic-utilities">Typographic Utilities</h2>
+<h2 id="utilitaires-typographiques">Utilitaires typographiques</h2>
 
-<p>There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization.</p>
+<p>Un certain nombre de classes CSS typographiques spécifiques vous permettent de remplacer le style par défaut pour la taille et l’épaisseur de la police, la hauteur de ligne et la capitalisation.</p>
 
 <p><a href="//docs/utilities#typography" class="btn btn-outline">View typography utilities</a></p>
 

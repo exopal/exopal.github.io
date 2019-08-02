@@ -6,77 +6,81 @@ nav_order: 6
 ---
 
 # Code
-{: .no_toc }
+{: .no_toc}
 
-## Table of contents
-{: .no_toc .text-delta }
+## Table des matières
+{: .no_toc .text-delta}
 
-1. TOC
-{:toc}
+1. COT
+{: toc}
 
 ---
 
-## Inline code
+## code en ligne
 
-Code can be rendered inline by wrapping it in single back ticks.
+Le code peut être rendu en ligne en l’enveloppant dans des ticks simples.
 
-<div class="code-example" markdown="1">
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-</div>
+<div class = "exemple de code" markdown = "1">
+Lorem ipsum dolor sit amet, `<extrait de code en ligne>` élit adipisicing, fait une incursion temporelle dans le travail et dolore magna aliqua.
+</ div>
 ```markdown
-Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet, `<extrait de code en ligne>` élit adipisicing, fait une incursion temporelle dans le travail et dolore magna aliqua.
 ```
 
 ---
 
-## Syntax highlighted code blocks
+## Syntax en surbrillance des blocs de code
 
-Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
+Utilisez la syntaxe intégrée de Jekyll en mettant en surbrillance Rouge pour les blocs de code en utilisant trois backticks, suivis du nom de la langue:
 
-<div class="code-example" markdown="1">
+<div class = "exemple de code" markdown = "1">
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+// code Javascript avec coloration syntaxique.
+var fun = fonction lang (l) {
+  dateformat.i18n = require ('./lang/' + l)
+  retourne vrai;
 }
+
 ```
 </div>
 {% highlight markdown %}
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+// code Javascript avec coloration syntaxique.
+var fun = fonction lang (l) {
+  dateformat.i18n = require ('./lang/' + l)
+  retourne vrai;
 }
 ```
 {% endhighlight %}
 
 ---
 
-## Code blocks with rendered examples
+## Blocs de code avec des exemples rendus
 
-To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `<div>` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown="1"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta...
+Pour illustrer le code frontal, il est parfois utile d’afficher un exemple de rendu de ce code. Après avoir inclus les styles de votre projet dont vous aurez besoin pour afficher le rendu, vous pouvez utiliser un `<div>` avec la classe `code-example`, suivi de la syntaxe du bloc de code. Si vous voulez rendre votre sortie avec Markdown au lieu de HTML, utilisez l'attribut `markdown =" 1 "` pour indiquer à Jekyll que le code que vous restiturez sera au format Markdown ... Ceci est sur le point d'être méta ...
 
-<div class="code-example" markdown="1">
+<div class = "exemple de code" markdown = "1">
 
-<div class="code-example" markdown="1">
+<div class = "exemple de code" markdown = "1">
 
-[Link button](http://example.com/){: .btn }
+[Bouton de lien](http://example.com/){: .btn}
 
 </div>
+
 ```markdown
-[Link button](http://example.com/){: .btn }
+[Bouton de lien](http://example.com/){: .btn}
 ```
 
 </div>
 {% highlight markdown %}
-<div class="code-example" markdown="1">
+<div class = "exemple de code" markdown = "1">
 
-[Link button](http://example.com/){: .btn }
+[Bouton de lien](http://example.com/) {: .btn}
 
 </div>
+
 ```markdown
-[Link button](http://example.com/){: .btn }
+[Bouton de lien](http://example.com/){: .btn}
 ```
+
 {% endhighlight %}

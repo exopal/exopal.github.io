@@ -5,15 +5,8 @@ nav_order: 5
 ---
 
 # Navigation Structure
-{: .no_toc }
+{: .fs-9 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
 
 ## Main navigation
 
@@ -193,11 +186,8 @@ This would create the following navigation structure:
 
 ---
 
-## Auxiliary Navigation
 
-To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-nav) in your site's `_config.yml` file.
-
-#### Example
+## Example
 {: .no_toc }
 
 ```yaml

@@ -4,6 +4,8 @@ title: Markdown kitchen sink
 nav_order: 99
 ---
 
+# Example
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
