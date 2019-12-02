@@ -3,6 +3,9 @@
 ## Important
 > Only use Github client to interract with Exopal documentation
 
+## Be aware of OSX Mojave
+On OSX mojave some ruby header are locked by the system, you need to install ruby 2.6.2 (jekyll compatible). Then  you can run bundle insall.
+
 ## Based on
 
 This production documentation site is based on 
@@ -29,7 +32,7 @@ $ jekyll serve
 ```
 ```bash
 # .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve. (RUN COMMAND)
 ```
 4. Point your web browser to [http://localhost:4000](http://localhost:4000)
 
